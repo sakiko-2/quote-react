@@ -1,18 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+h1 {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
 .App {
   text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
 .App-intro {
   font-size: large;
+}
+
+.quote-author {
+	font-size: 1.2rem;
+	margin-top: 1em;
+	text-align: right;
+}
+
+.quote-card {
+	background-color: #fff; 
+	border-radius: 10px;
+	color: #808080;
+}
+
+.btn:focus, .btn:active {
+	box-shadow: none;
+	outline: 0 none;
+}
+
+.container {
+	margin-top: 10%;
+	min-height: 100%;
+}
+
+.fa-quote-left {
+	font-size: 3rem;
+}
+
+.fa-repeat {
+	font-size: 2rem;
+	padding: 0.5rem 0.2rem;
+}
+
+.quote {
+	padding: 2.5rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.quote-card {
+	max-width: 50rem;
+}
+
+.quote-text {
+	font-size: 1.5rem;
+	padding: 0 1rem 0 1rem;
+	text-align: left;
+}
+
+#new-quote {
+	background-color: #000080;
+	border-radius: 7px;
+	color: #fff;
+	float: right;
+	font-family: 'Raleway', sans-serif;
+	margin: 1em 0.5em;
+}
+
+#new-quote:hover {
+	background-color: #000066;
 }
