@@ -11,7 +11,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Quote Of The Day</h1>
         </header>     
-        <QuoteCard />    
+        <QuoteCard />
       </div>
     );
   }

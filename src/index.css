@@ -9,7 +9,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
   color: #4B4E4B;
-  display: flex;
+	display: flex;
+	flex-direction: column;
   justify-content: center;
 	position: relative;
 	min-height: 100vh;

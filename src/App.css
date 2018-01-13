@@ -15,6 +15,10 @@ h1 {
   font-size: large;
 }
 
+.buttons {
+	float: left;
+}
+
 .quote-author {
 	font-size: 1.2rem;
 	margin-top: 1em;
@@ -51,13 +55,21 @@ h1 {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.quote-bottom {
+	display: inline;
+}
+
 .quote-card {
 	max-width: 50rem;
 }
 
 .quote-text {
 	font-size: 1.5rem;
-	padding: 0 1rem 0 1rem;
+	padding: 1rem;
+	text-align: left;
+}
+
+.quote-top {
 	text-align: left;
 }
 
@@ -65,9 +77,7 @@ h1 {
 	background-color: #000080;
 	border-radius: 7px;
 	color: #fff;
-	float: right;
 	font-family: 'Raleway', sans-serif;
-	margin: 1em 0.5em;
 }
 
 #new-quote:hover {
