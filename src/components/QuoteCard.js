@@ -7,7 +7,7 @@ const REQUEST_URL = 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat='
 const request = {
   method: 'GET',
   headers: {
-    'X-Mashape-Key': 'AAKEcNlE4FmshE45hUtPAN20hHwNp1EzCYMjsnRne8KEicj9kP',
+    'X-Mashape-Key': '${yourKey}',
     Accept: 'application/json',
     'Content-Type': 'application/x-www-form-urlencoded'
   }
@@ -20,6 +20,7 @@ class QuoteCard extends Component {
       dataSource: [],
       loaded: false,
     }
+    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -35,6 +36,10 @@ class QuoteCard extends Component {
       })
   }
 
+  handleClick() {
+    this.fetchData();
+  }
+
   render() {
     return (
       <div className="quote-card">
@@ -44,7 +49,7 @@ class QuoteCard extends Component {
           </div>
           <div className="quote-text">{this.state.dataSource.quote}</div>
           <div className="quote-bottom">
-            <Button fetchData/>
+            <Button handleClick={this.handleClick}/>
             <div className="quote-author">{this.state.dataSource.author}</div>
           </div>
         </div>
