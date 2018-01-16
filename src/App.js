@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import QuoteCard from './components/QuoteCard';
 
-const REQUEST_URL = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?';
-
 class App extends Component {
   render() {
     return (
