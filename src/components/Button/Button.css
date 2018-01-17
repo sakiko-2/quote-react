@@ -1,0 +1,23 @@
+.buttons {
+  float: left;
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.fa-repeat {
+  font-size: 2rem;
+  padding: 0.5rem 0.2rem;
+}
+
+#new-quote {
+  background-color: #fff;
+  border: none;
+  color: #808080;
+}
+
+#new-quote:hover {
+  color: #5e5e5e;
+}

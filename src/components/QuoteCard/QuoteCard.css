@@ -1,0 +1,35 @@
+.fa-quote-left {
+  font-size: 3rem;
+}
+
+.quote {
+  padding: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  margin-top: 0.5em;
+  text-align: right;
+}
+
+.quote-bottom {
+  display: inline;
+}
+
+.quote-card {
+  background-color: #fff; 
+  border-radius: 10px;
+  color: #808080;
+  max-width: 50rem;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  padding: 1rem 1rem 2rem 1rem;
+  text-align: left;
+}
+
+.quote-top {
+  text-align: left;
+}

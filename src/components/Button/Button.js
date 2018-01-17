@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import QuoteCard from './QuoteCard';
+import QuoteCard from '../QuoteCard/QuoteCard';
+import './Button.css';
 
 class Button extends Component {
   constructor(props) {

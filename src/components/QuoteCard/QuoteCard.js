@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import Button from './Button';
+import Button from '../Button/Button';
+import './QuoteCard.css';
 
 const REQUEST_URL = 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat='
 
